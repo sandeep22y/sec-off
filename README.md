@@ -3,7 +3,6 @@ https://securitycipher.com/web-application-security-checklist/
 **1. Authentication and Session Management**
    
 **Weak Passwords and Brute-Force Vulnerabilities:** Test for weak passwords and brute-force vulnerabilities.
-
 **Multi-Factor Authentication (MFA):** Verify that multi-factor authentication (MFA) is properly implemented.
 
 Password Recovery, Reset, and Update: Check for password recovery, reset, and update vulnerabilities.
