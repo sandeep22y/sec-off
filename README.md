@@ -2,8 +2,8 @@ https://securitycipher.com/web-application-security-checklist/
 
 **1. Authentication and Session Management**
    
-Weak Passwords and Brute-Force Vulnerabilities: Test for weak passwords and brute-force vulnerabilities.
-Multi-Factor Authentication (MFA): Verify that multi-factor authentication (MFA) is properly implemented.
+**Weak Passwords and Brute-Force Vulnerabilities:** Test for weak passwords and brute-force vulnerabilities.
+**Multi-Factor Authentication (MFA):** Verify that multi-factor authentication (MFA) is properly implemented.
 Password Recovery, Reset, and Update: Check for password recovery, reset, and update vulnerabilities.
 Session Management: Assess session management, ensuring secure cookies, session timeout, and session fixation.
 Logout Functionality: Ensure proper logout functionality and invalidation of sessions.
@@ -122,7 +122,7 @@ Storage Location: Ensure uploaded files are stored in secure locations with appr
 File Integrity: Verify that file integrity checks are performed on uploaded files.
 Sanitization of File Names: Ensure that uploaded file names are sanitized to prevent directory traversal attacks.
 
-**11. Client-Side Security**
+**10. Client-Side Security**
 
 Content Security Policy (CSP): Verify the implementation of Content Security Policy (CSP).
 JavaScript Code and Third-Party Libraries: Test for vulnerabilities in JavaScript code and third-party libraries.
@@ -139,7 +139,7 @@ Secure Frameworks: Check for secure usage of client-side frameworks and librarie
 Client-Side Caching: Validate that sensitive data is not inadvertently cached on the client-side.
 Client-Side Encryption: Ensure any sensitive data processed on the client-side is encrypted appropriately.
 
-**12. Security Headers**
+**11. Security Headers**
 
 Presence and Configuration: Verify the presence and correct configuration of security headers (e.g., X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security).
 Referrer Policy: Ensure that the Referrer-Policy header is configured correctly to minimize information leakage.
@@ -152,7 +152,7 @@ X-XSS-Protection: Verify that X-XSS-Protection is configured to prevent reflecte
 X-Frame-Options: Ensure that X-Frame-Options is set to prevent clickjacking.
 Public-Key-Pins (HPKP): Check for the use of HTTP Public-Key-Pinning to mitigate man-in-the-middle attacks.
 
-**13. API Security**
+**12. API Security**
 
 Rate Limiting and Throttling: Test for API rate limiting and throttling.
 Authentication and Authorization: Assess for improper API authentication and authorization.
@@ -170,7 +170,7 @@ Data Filtering: Verify that sensitive data is properly filtered out of API respo
 API Gateway Security: Check the security configurations of API gateways and their role in protecting backend services.
 OAuth/OpenID Connect: Verify secure implementation of OAuth and OpenID Connect for authentication and authorization.
 
-**14. Logging and Monitoring**
+**13. Logging and Monitoring**
 
 Log Sensitive Actions: Ensure that sensitive actions (e.g., login attempts, data modifications) are logged.
 Log Integrity: Verify that logs are protected from tampering and unauthorized access.
@@ -181,7 +181,7 @@ Anomaly Detection: Implement and verify anomaly detection to identify suspicious
 Security Event Management: Ensure integration with Security Information and Event Management (SIEM) systems.
 Compliance Logging: Validate that logging complies with industry standards and regulations (e.g., PCI-DSS, GDPR).
 
-**15. Cryptography**
+**14. Cryptography**
 
 Strong Encryption Algorithms: Ensure the use of strong, industry-standard encryption algorithms (e.g., AES-256).
 Secure Key Management: Verify that encryption keys are managed and stored securely.
@@ -192,7 +192,7 @@ Random Number Generation: Ensure that cryptographic functions use secure random 
 Deprecated Protocols: Verify that deprecated protocols (e.g., SSLv3) are disabled.
 HMAC: Ensure the use of HMAC for integrity checks where applicable.
 
-**16. Cloud Security**
+**15. Cloud Security**
 
 Secure Cloud Configuration: Ensure that cloud resources are configured securely (e.g., storage buckets, virtual machines).
 Identity and Access Management (IAM): Verify that IAM policies follow the principle of least privilege.
@@ -203,7 +203,7 @@ Backup and Recovery: Ensure that backup and recovery processes are secure and re
 Serverless Security: Verify the security configurations of serverless functions.
 Cloud Compliance: Ensure compliance with relevant regulations and standards in the cloud environment.
 
-**17. Third-Party Components**
+**16. Third-Party Components**
 
 Vulnerability Management: Ensure that third-party components are regularly checked for vulnerabilities.
 License Compliance: Verify that the use of third-party components complies with their licenses.
@@ -211,7 +211,7 @@ Secure Configuration: Ensure that third-party components are securely configured
 Update Management: Check that third-party components are kept up-to-date with the latest security patches.
 Integrity Checks: Verify the integrity of third-party components before use.
 
-**18. Development and Deployment**
+**17. Development and Deployment**
 
 Secure Development Lifecycle: Ensure that security is integrated into the development lifecycle.
 Code Reviews: Conduct regular code reviews to identify and mitigate security vulnerabilities.
@@ -220,7 +220,7 @@ Secure CI/CD Pipeline: Verify that the CI/CD pipeline includes security checks a
 Deployment Security: Ensure that the deployment process follows secure practices to prevent vulnerabilities.
 Environment Segregation: Verify the segregation of development, testing, and production environments.
 
-**19. Incident Response**
+**18. Incident Response**
 
 Incident Response Plan: Ensure there is an incident response plan in place.
 Detection and Analysis: Verify that incidents can be detected and analyzed promptly.
