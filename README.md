@@ -10,18 +10,31 @@ Weak Passwords and Brute-Force Vulnerabilities: Test for weak passwords and brut
 Multi-Factor Authentication (MFA): Verify that multi-factor authentication (MFA) is properly implemented.
 
 Password Recovery, Reset, and Update: Check for password recovery, reset, and update vulnerabilities.
+
 Session Management: Assess session management, ensuring secure cookies, session timeout, and session fixation.
+
 Logout Functionality: Ensure proper logout functionality and invalidation of sessions.
+
 Default Credentials: Check if default credentials are changed or disabled.
+
 Account Lockout Mechanism: Verify the presence and effectiveness of account lockout mechanisms after multiple failed login attempts.
+
 Secure Password Storage: Ensure passwords are stored securely using strong hashing algorithms like bcrypt.
+
 Token Expiration: Verify that authentication tokens have appropriate expiration times.
+
 Session Hijacking: Test for vulnerabilities that could lead to session hijacking, such as missing Secure or HttpOnly flags on cookies.
+
 Secure Login Forms: Ensure that login forms are served over HTTPS and do not expose credentials in logs or URL parameters.
+
 CAPTCHAs: Verify the implementation of CAPTCHAs to prevent automated login attempts.
+
 Password Complexity: Ensure password policies enforce complexity requirements (length, character variety).
+
 Remember Me: Check the security of “Remember Me” functionality and ensure tokens expire appropriately.
+
 Session Timeout: Validate session timeout configurations to prevent extended idle sessions.
+
 Inactive Account Handling: Ensure that inactive accounts are disabled after a defined period.
 
 **2. Authorization**
@@ -160,19 +173,33 @@ Public-Key-Pins (HPKP): Check for the use of HTTP Public-Key-Pinning to mitigate
 **12. API Security**
 
 Rate Limiting and Throttling: Test for API rate limiting and throttling.
+
 Authentication and Authorization: Assess for improper API authentication and authorization.
+
 Data Exposure: Check for data exposure through API responses.
+
 Input Validation: Ensure proper input validation and sanitization in API endpoints.
+
 CORS Configuration: Verify that Cross-Origin Resource Sharing (CORS) is properly configured to prevent unauthorized access.
+
 API Key Management: Check for secure management and storage of API keys.
+
 Versioning: Ensure that API versioning is implemented to manage changes and deprecations securely.
+
 Error Handling: Verify that API error messages do not reveal sensitive information.
+
 Parameter Tampering: Test for vulnerabilities where API parameters can be tampered with to achieve unintended effects.
+
 Mass Assignment: Ensure that APIs do not accept and process unexpected parameters that could lead to mass assignment vulnerabilities.
+
 JSON Web Token (JWT): Verify the secure implementation and storage of JWTs, including proper signing and expiration.
+
 Input Whitelisting: Ensure APIs use input whitelisting to accept only known and expected inputs.
+
 Data Filtering: Verify that sensitive data is properly filtered out of API responses.
+
 API Gateway Security: Check the security configurations of API gateways and their role in protecting backend services.
+
 OAuth/OpenID Connect: Verify secure implementation of OAuth and OpenID Connect for authentication and authorization.
 
 **13. Logging and Monitoring**
