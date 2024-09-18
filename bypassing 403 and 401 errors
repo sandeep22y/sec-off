@@ -4,17 +4,20 @@ By adding headers:
 
 Use headers such as X-Originating-IP, X-Remote-IP, X-Client-IP, X-Forwarded-For.
 These headers take IP addresses as values, and if they match the whitelisted ones, they may grant access.
+
 Using Unicode characters:
 
 Insert Unicode characters to bypass defenses.
 Example: % = ca, % = sa, etc.
 If /admin is blocked, try accessing %dmin.
+
 By overriding, overwriting URL with headers:
 
 If GET /admin gives a 403 error, try GET /accessible and add one of these HTTP headers:
 X-Original-URL: /admin
 X-Override-URL: /admin
 X-Rewrite-URL: /admin
+
 Try different payloads:
 
 If /admin gives a 403 error, try:
@@ -26,9 +29,11 @@ If /admin gives a 403 error, try:
 /admin?param
 /%2e/admin
 /admin#
+
 Method switching:
 
 Change the HTTP method from GET to POST to see if it yields different results.
+
 Via IP, Vhost:
 
 Access the site via its IP address or Vhost.
