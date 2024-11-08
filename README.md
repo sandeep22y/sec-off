@@ -1,4 +1,4 @@
-
+https://chatgpt.com/share/672db79f-4c04-8004-bd5a-66da74c31f05
 
 
 https://securitycipher.com/web-application-security-checklist/
